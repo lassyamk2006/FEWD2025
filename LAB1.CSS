@@ -1,0 +1,133 @@
+/* Reset some default styles */
+
+body, h1, h2, p,ul, li {
+
+margin: 0; 
+padding: 0;
+
+}
+
+/* Global & Styles */
+ 
+body {
+
+font-family : Arial, sans,sans-serif;
+
+line-height: 1.6;
+
+}
+
+header {
+
+background-color: darkgrey;
+
+color: #fff;
+
+text-align: left;
+padding: 10px 0;
+
+display: flex;
+
+align-items:center;
+
+justify-content: space-between;
+
+}
+
+.logo img {
+
+max-width: 1000px;
+
+height: auto;
+
+}
+.affiliation {
+
+text-align: left;
+
+}
+nav
+{
+background-color: #447;
+
+}
+
+.menu {
+
+list-style: none;
+
+display: flex;
+
+justify-content: center;
+
+padding: 1rem;
+
+}
+
+.menu li {
+
+margin: 0 1rem;
+
+position: relative;
+
+}
+
+.menu a {
+
+color: #fff;
+
+text-decoration: none;
+
+transition: color 0.35s;
+
+}
+
+.menu a:hover {
+
+color: #ff9900;
+
+}
+
+.dept_submenu {
+
+display: none;
+
+position: absolute;
+
+top: 100%;
+
+left: 0;
+
+background-color: gray;
+z-index: 1;
+
+}
+
+.menu li:hover .dept_submenu {
+
+display: block;
+
+}
+
+main {
+
+padding: 2rem;
+}
+
+.department {
+
+margin-bottom: 2rem;
+
+}
+
+footer {
+
+text-align: center;
+
+padding: 1rem;
+
+background-color: darkgray;
+
+color: #fff;
+
+}
